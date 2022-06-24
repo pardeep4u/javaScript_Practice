@@ -108,7 +108,30 @@ console.log(" Function name is " + get_function_name("sourav","Pardeep"));
 
 // Write a JavaScript function to find longest substring in a given a string without repeating characters
 
+/*
+Write a JavaScript program to calculate the factorial of a number
 
+*/
+
+function factorial_num(par = Number){
+
+    if(par===0){
+        return 1;
+    }
+    else{
+        return par * factorial_num(par - 1);
+    }
+};
+
+console.log("Factorial of the number using recursion " + factorial_num(5));
+
+
+/*
+Write a JavaScript program to get the integers in range (x, y)
+*/
+
+
+// JavaScrip hoisting
 
 
 

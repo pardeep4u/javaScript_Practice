@@ -101,7 +101,7 @@ console.log( ss.slice(1)+tt.slice(1) );
 var last = tt.substring(tt.length,tt.length- 3);
 console.log(last + tt[2][4]);
 
-*/
+
 
 
 
@@ -172,9 +172,31 @@ function game(bundle) {
     
 }
 
-
-
 game(bundle);
+
+Write a JavaScript program to calculate the factorial of a number
+
+*/
+
+function factorial_num(par = Number){
+
+    if(par===0){
+        return 1;
+    }
+    else{
+        return par * factorial_num(par - 1);
+    }
+};
+
+console.log("Factorial of the number using recursion " + factorial_num(5));
+
+
+
+
+
+
+
+
 
 
 
